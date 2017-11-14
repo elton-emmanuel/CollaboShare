@@ -1,4 +1,6 @@
 ﻿Public Class Calendar
+    'This is a comment to check that commiting works
+
     Private Sub Calendar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
