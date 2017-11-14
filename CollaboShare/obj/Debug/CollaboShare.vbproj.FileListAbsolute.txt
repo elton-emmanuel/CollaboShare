@@ -1,0 +1,101 @@
+c:\users\user\source\repos\CollaboShare\CollaboShare\bin\Debug\CollaboShare.exe.config
+c:\users\user\source\repos\CollaboShare\CollaboShare\bin\Debug\CollaboShare.exe
+c:\users\user\source\repos\CollaboShare\CollaboShare\bin\Debug\CollaboShare.pdb
+c:\users\user\source\repos\CollaboShare\CollaboShare\bin\Debug\CollaboShare.xml
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.Form.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.Login.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.Resources.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.vbproj.GenerateResource.Cache
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.vbproj.CoreCompileInputs.cache
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.exe
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.xml
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.pdb
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.HomeMenuButtons.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.HomePage.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.SelectHousehold.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.ChoresMenu.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.ViewChores.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.EditChores.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.EditChoresComponent.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.AddChore.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.DistributeChores.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.TradeChores.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.VerifyCompletion.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.Volunteer.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.Households.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.AddHousehold.resources
+c:\users\user\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.DifficultyRating.resources
+C:\Users\User\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.TradingChores.resources
+C:\Users\User\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.vbprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.Calendar.resources
+C:\Users\User\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.CalendarChores.resources
+C:\Users\User\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.HousemateComponent.resources
+C:\Users\User\source\repos\CollaboShare\CollaboShare\obj\Debug\CollaboShare.Housemates.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\bin\Debug\CollaboShare.exe.config
+D:\vb proj\CollaboShare - Copy\CollaboShare\bin\Debug\CollaboShare.exe
+D:\vb proj\CollaboShare - Copy\CollaboShare\bin\Debug\CollaboShare.pdb
+D:\vb proj\CollaboShare - Copy\CollaboShare\bin\Debug\CollaboShare.xml
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.vbprojResolveAssemblyReference.cache
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.AddChore.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.AddHousehold.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.AddHousemate.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.Calendar.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.CalendarChores.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.ChoresMenu.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.DifficultyRating.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.DistributeChores.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.EditChores.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.EditChoresComponent.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.Form.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.HomeMenuButtons.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.HomePage.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.Households.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.HousemateComponent.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.Housemates.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.Login.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.Resources.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.SelectHousehold.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.TradeChores.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.TradingChores.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.VerifyCompletion.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.ViewChores.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.Volunteer.resources
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.vbproj.GenerateResource.Cache
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.vbproj.CoreCompileInputs.cache
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.exe
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.xml
+D:\vb proj\CollaboShare - Copy\CollaboShare\obj\Debug\CollaboShare.pdb
+C:\VB\CollaboShare - ELTON\CollaboShare\bin\Debug\CollaboShare.exe.config
+C:\VB\CollaboShare - ELTON\CollaboShare\bin\Debug\CollaboShare.exe
+C:\VB\CollaboShare - ELTON\CollaboShare\bin\Debug\CollaboShare.pdb
+C:\VB\CollaboShare - ELTON\CollaboShare\bin\Debug\CollaboShare.xml
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.vbprojResolveAssemblyReference.cache
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.AddChore.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.AddHousehold.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.AddHousemate.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.Calendar.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.CalendarChores.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.ChoresMenu.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.DifficultyRating.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.DistributeChores.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.EditChores.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.EditChoresComponent.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.Form.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.HomeMenuButtons.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.HomePage.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.Households.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.HousemateComponent.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.Housemates.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.Login.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.Resources.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.SelectHousehold.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.TradeChores.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.TradingChores.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.VerifyCompletion.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.ViewChores.resources
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.vbproj.GenerateResource.Cache
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.vbproj.CoreCompileInputs.cache
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.exe
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.xml
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.pdb
+C:\VB\CollaboShare - ELTON\CollaboShare\obj\Debug\CollaboShare.Preference.resources

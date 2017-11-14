@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41276DF2-0B82-4D18-BE6A-1180004696E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CollaboShare.My.MyApplication</StartupObject>
+    <RootNamespace>CollaboShare</RootNamespace>
+    <AssemblyName>CollaboShare</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CollaboShare.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CollaboShare.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddChore.Designer.vb">
+      <DependentUpon>AddChore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddChore.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddHousehold.Designer.vb">
+      <DependentUpon>AddHousehold.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddHousehold.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddHousemate.Designer.vb">
+      <DependentUpon>AddHousemate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddHousemate.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Calendar.Designer.vb">
+      <DependentUpon>Calendar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CalendarChores.Designer.vb">
+      <DependentUpon>CalendarChores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarChores.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChoresMenu.Designer.vb">
+      <DependentUpon>ChoresMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChoresMenu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DifficultyRating.Designer.vb">
+      <DependentUpon>DifficultyRating.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DifficultyRating.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DistributeChores.Designer.vb">
+      <DependentUpon>DistributeChores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DistributeChores.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditChores.Designer.vb">
+      <DependentUpon>EditChores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditChores.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditChoresComponent.Designer.vb">
+      <DependentUpon>EditChoresComponent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditChoresComponent.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeMenuButtons.Designer.vb">
+      <DependentUpon>HomeMenuButtons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomeMenuButtons.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.vb">
+      <DependentUpon>HomePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Households.Designer.vb">
+      <DependentUpon>Households.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Households.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HousemateComponent.Designer.vb">
+      <DependentUpon>HousemateComponent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HousemateComponent.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Housemates.Designer.vb">
+      <DependentUpon>Housemates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Housemates.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SelectHousehold.Designer.vb">
+      <DependentUpon>SelectHousehold.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectHousehold.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeChores.Designer.vb">
+      <DependentUpon>TradeChores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TradeChores.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradingChores.Designer.vb">
+      <DependentUpon>TradingChores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TradingChores.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VerifyCompletion.Designer.vb">
+      <DependentUpon>VerifyCompletion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerifyCompletion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewChores.Designer.vb">
+      <DependentUpon>ViewChores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewChores.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Preference.Designer.vb">
+      <DependentUpon>Preference.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preference.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddChore.resx">
+      <DependentUpon>AddChore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddHousehold.resx">
+      <DependentUpon>AddHousehold.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddHousemate.resx">
+      <DependentUpon>AddHousemate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar.resx">
+      <DependentUpon>Calendar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalendarChores.resx">
+      <DependentUpon>CalendarChores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoresMenu.resx">
+      <DependentUpon>ChoresMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DifficultyRating.resx">
+      <DependentUpon>DifficultyRating.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistributeChores.resx">
+      <DependentUpon>DistributeChores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditChores.resx">
+      <DependentUpon>EditChores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditChoresComponent.resx">
+      <DependentUpon>EditChoresComponent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeMenuButtons.resx">
+      <DependentUpon>HomeMenuButtons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Households.resx">
+      <DependentUpon>Households.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HousemateComponent.resx">
+      <DependentUpon>HousemateComponent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Housemates.resx">
+      <DependentUpon>Housemates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectHousehold.resx">
+      <DependentUpon>SelectHousehold.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeChores.resx">
+      <DependentUpon>TradeChores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradingChores.resx">
+      <DependentUpon>TradingChores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerifyCompletion.resx">
+      <DependentUpon>VerifyCompletion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewChores.resx">
+      <DependentUpon>ViewChores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preference.resx">
+      <DependentUpon>Preference.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-11-09 at 3.22.40 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-11-09 at 3.00.02 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendarButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailButtonNoMail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailButtonYesMail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profileButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-11-10 at 7.00.55 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choreButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeCalendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeChores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Housemates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RequestALeave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyProfileHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChoresBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DistributeChoresBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DistributeChoresButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditChoresBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditChoresButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TradeChoresBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TradeChoresButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VerifyCompletionBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VerifyCompletionButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewChoresBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewChoresButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VolunteerBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VolunteerButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editchoresymbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddChoreBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addNewHouseholdButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemoveButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectHouseholdBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignUpButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteBubble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignOutButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddHouseholdBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HouseMatesBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyProfileBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RequestALeaveBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beigeBubble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tradeArrows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emptyStar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filledStar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tradeChoresBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarLeftArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarRightArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarWeekDayBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mischStars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarChoreBulletPoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tradeChoresBackground2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignOutButton %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avatar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avatar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avatar3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avatar4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avatar5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avatar6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avatar7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddHousemateBanner.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
